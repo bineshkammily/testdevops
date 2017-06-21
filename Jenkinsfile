@@ -1,6 +1,6 @@
 pipeline {
 
-	agent any 
+	agent prod_slave_lable 
 
 	stages {
 
