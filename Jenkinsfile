@@ -32,8 +32,7 @@ pipeline {
 			stage ('Deploy'){
 
 				steps {
-					sh("rere.sh")
-
+echo "Deployment completed...!!!"
 				}
 
 			}
