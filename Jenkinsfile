@@ -24,7 +24,7 @@ pipeline {
 			stage ('Run My Script'){
 
 				steps {
-					sh("rere.sh")
+					echo "Running My Script..............!!!"	
 				}
 
 			}
