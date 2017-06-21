@@ -24,7 +24,7 @@ pipeline {
 			stage ('Run My Script'){
 
 				steps {
-					sh("python hello.py")
+					sh("rere.sh")
 				}
 
 			}
