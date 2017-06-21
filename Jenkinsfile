@@ -32,8 +32,7 @@ pipeline {
 			stage ('Deploy'){
 
 				steps {
-					echo "Testing Deployment Stage..............!!!"
-					rere.sh
+					sh("rere.sh")
 
 				}
 
